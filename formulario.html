@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asigancion 05</title>
+</head>
+<body>
+    
+
+    <form>
+        <fieldset>
+            <legend>Información del Pokémon</legend>
+            <label for="nombre">Nombre del Pokémon:</label>
+            <input type="text" required><br><br>
+            <label for="numero">Número en la Pokédex:</label>
+            <input type="text" required><br><br>
+            <label for="tipo">Tipo de Pokémon:</label><br>
+            <input type="radio" name="tipo" value="1">
+            <label for="radio">Fuego</label><br>
+            <input type="radio" name="tipo" value="2">
+            <label for="radio">Agua</label><br>
+            <input type="radio" name="tipo" value="3">
+            <label for="radio">Planta</label><br>
+            <input type="radio" name="tipo" value="4">
+            <label for="radio">Eléctrico</label><br><br>
+            <label for="nivelEvolucion">Nivel de evolución:</label>
+            <select name="nivelEvolucion">
+                <option>Basico</option>
+                <option>Primera evolución</option>
+                <option>Segunda evolución</option>
+            </select> <br><br>
+            <label for="nivelPoder">Nivel de poder:</label>
+            <input type="range" name="range" min="1" max="100"><br><br>
+            <label for="descripcion">Descripción del Pokémon:</label><br>
+            <textarea name="descripcion" placeholder="Escribe una breve descripción" rows="5" cols="70"></textarea><br><br>
+            <input type="submit" name="agregarPokemon" value="Agregar Pokemon">
+            <input type="reset" name="limpiarFormulario" value="Limpiar formulario">
+        </fieldset>
+    </form>
+</body>
+</html>
